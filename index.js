@@ -7,7 +7,7 @@ app.use(express.json());
 
 // Routes
 
-app.use(require("./routes/index"));
+app.use(require("./src/routes/index.js"));
 
 // connection
 const port = process.env.PORT || 9001;
