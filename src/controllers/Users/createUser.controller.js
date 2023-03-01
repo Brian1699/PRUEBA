@@ -11,7 +11,7 @@ const createUser= async (req = request, res = response)=>{
         return res.status(200).json({
           ok: true,
           response: {
-            data: re.body,
+            data: req.body,
             message: '[success]',
           }
         });
